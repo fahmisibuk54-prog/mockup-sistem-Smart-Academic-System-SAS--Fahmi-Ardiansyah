@@ -3,37 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Fahmi Ardiansyah</title>
+  <title>Smart Academic System (SAS) - Fahmi Ardiansyah</title>
   <style>
     body {
-      background-color: #0d0d0d;
-      color: #f1f1f1;
-      font-family: Arial, sans-serif;
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 40px 20px;
       text-align: center;
-      padding: 60px;
     }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
+
+    .card {
+      background-color: #f9f9f9;
+      border: 2px solid #005bbb;
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(0, 91, 187, 0.15);
+      padding: 30px 40px;
+      max-width: 700px;
+      margin: 0 auto 40px;
     }
-    h2 {
-      font-size: 22px;
-      font-weight: normal;
-      color: #bbbbbb;
-    }
-    img {
-      width: 220px;
-      height: 220px;
+
+    img.profile {
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
-      border: 3px solid #ffffff;
-      margin-top: 25px;
-      box-shadow: 0 0 15px rgba(255,255,255,0.3);
+      object-fit: cover;
+      border: 3px solid #ffcc00;
+      margin-bottom: 15px;
     }
+
+    h1 {
+      color: #005bbb;
+      font-size: 24px;
+      margin: 15px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 5px 0;
+      color: #333333;
+    }
+
+    p {
+      color: #444444;
+      line-height: 1.6;
+      font-size: 15px;
+      margin: 15px 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #666666;
+    }
+
+    .mockup {
+      margin-top: 40px;
+    }
+
+    .mockup img {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 16px;
+      border: 2px solid #005bbb;
+      box-shadow: 0 0 20px rgba(0, 91, 187, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .mockup img:hover {
+      transform: scale(1.02);
+    }
+
   </style>
 </head>
 <body>
-  <h1>NIM: 222511011</h1>
-  <h2>Nama: Fahmi Ardiansyah</h2>
-  <img src="fahmi.jpeg" alt="Foto Profil Fahmi Ardiansyah">
+  <div class="card">
+    <img src="fahmi.jpeg" alt="Foto Profil" class="profile">
+    <h2>Fahmi Ardiansyah</h2>
+    <p><strong>NIM:</strong> 222511011</p>
+    <h1>Smart Academic System (SAS)</h1>
+    <p>
+      Smart Academic System (SAS) adalah sistem berbasis web dan mobile yang dirancang untuk membantu
+      proses perkuliahan di kampus menjadi lebih teratur, transparan, dan efisien. Sistem ini menyediakan
+      fitur jadwal kuliah otomatis, pencatatan kehadiran dosen dan mahasiswa, serta tampilan nilai secara real-time.
+      Selain itu, terdapat notifikasi perubahan jadwal dan fitur komunikasi antara dosen dan mahasiswa dalam satu platform.
+    </p>
+    <div class="footer">By : Fahmi Ardiansyah</div>
+  </div>
+
+  <div class="mockup">
+    <img src="mockup03.png" alt="Mockup Smart Academic System">
+  </div>
 </body>
 </html>
