@@ -8,9 +8,20 @@
     body {
       font-family: "Poppins", Arial, sans-serif;
       background-color: #ffffff;
-      color: #000000;
+      color: #111111;
       margin: 0;
       padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 800px;
+      background: #fafafa;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
       text-align: center;
     }
 
@@ -19,43 +30,66 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin: 20px 0 15px 0;
     }
 
     h2 {
-      margin: 8px 0;
+      margin: 8px 0 4px 0;
       font-size: 20px;
+      font-weight: 600;
     }
 
     p {
-      max-width: 700px;
-      margin: 10px auto;
       line-height: 1.6;
       font-size: 15px;
+      color: #333333;
+      margin: 10px 0 20px 0;
+    }
+
+    .mockup {
+      margin-top: 25px;
     }
 
     .mockup img {
       width: 100%;
-      max-width: 900px;
-      margin-top: 30px;
+      max-width: 700px;
       border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .mockup img:hover {
+      transform: scale(1.01);
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #666;
     }
   </style>
 </head>
 <body>
- 
-  <h1>Smart Academic System (SAS)</h1>
-  <p>
-    Smart Academic System (SAS) adalah sistem berbasis web dan mobile yang dirancang untuk membantu
-    proses perkuliahan di kampus menjadi lebih teratur, transparan, dan efisien. Sistem ini menyediakan
-    fitur jadwal kuliah otomatis, pencatatan kehadiran dosen dan mahasiswa, serta tampilan nilai secara real-time.
-    Selain itu, terdapat notifikasi perubahan jadwal dan fitur komunikasi antara dosen dan mahasiswa dalam satu platform.
-  </p>
-  <div class="mockup">
-    <img src="mockup03.png" alt="Mockup Smart Academic System">
-<p></p>
+  <div class="container">
+    
+    <h1>Smart Academic System (SAS)</h1>
+    <p>
+      Smart Academic System (SAS) adalah sistem berbasis web dan mobile yang dirancang untuk membantu
+      proses perkuliahan di kampus menjadi lebih teratur, transparan, dan efisien. Sistem ini menyediakan
+      fitur jadwal kuliah otomatis, pencatatan kehadiran dosen dan mahasiswa, serta tampilan nilai secara real-time.
+      Selain itu, terdapat notifikasi perubahan jadwal dan fitur komunikasi antara dosen dan mahasiswa dalam satu platform.
+    </p>
 
-    <div class="footer">Fahmi Ardiansyah - 222511011 </div>
+    <div class="mockup">
+      <img src="mockup03.png" alt="Mockup Smart Academic System">
+    </div>
+
+    <footer>Fahmi Ardiansyah - 222511011</footer>
   </div>
 </body>
 </html>
